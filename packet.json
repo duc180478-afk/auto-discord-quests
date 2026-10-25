@@ -1,0 +1,25 @@
+{
+  "name": "mducdz-telegram",
+  "version": "2.2.0",
+  "description": "Discord Quest Auto Claim with Telegram Bot UI — Render ready",
+  "main": "farm.ts",
+  "scripts": {
+    "go": "tsx farm.ts",
+    "start": "tsx farm.ts"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/core": "^1.1.1",
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/ws": "^1.0.2",
+    "@types/node": "^20.10.0",
+    "discord-api-types": "^0.37.61",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "undici": "^6.0.0"
+  }
+}
